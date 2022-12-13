@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  border-right: 2px solid gray;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 20;
+  font-size: 10rem;
+}
+
+.marketData {
+  align-self: flex-start;
+  padding-left: 3rem;
+  width: 100%;
+
+}
